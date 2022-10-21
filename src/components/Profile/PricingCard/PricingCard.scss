@@ -1,0 +1,25 @@
+.card {
+  &-billing {
+    padding: 15px;
+  }
+  
+  &-description {
+    h2 { 
+      font-size: 26px;
+    }
+  }
+  
+  &-billing {
+    background-color: #ecf0f1;
+    
+    p {
+      margin-bottom: .5rem;
+    }
+    
+    .price {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+
+}
